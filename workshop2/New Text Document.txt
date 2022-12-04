@@ -1,0 +1,26 @@
+Write a program to print your nanme 1000 times. Draw flowchart and algorithm as well.
+Write a program flowchart and algorithm to print the first 50 natural numbers.
+Write a program flowchart and algorithm to find the sum of first 50 natural numbers.
+
+
+
+
+    public static void main(String[] args)
+    {
+        int N = 10;
+        int sum = 0;
+        System.out.print("First " + N + " Numbers = ");
+ 
+        // we initialize the value of the variable i
+        // with 1 and increment each time with 1
+        for (int i = 1; i <= N; i++) {
+ 
+            // print the value of the variable as
+            // long as the code executes
+            System.out.print(i + " ");
+            sum += i;
+        }
+        System.out.println();
+        System.out.println("Sum of first " + N
+                           + " Natural Number = " + sum);
+    
